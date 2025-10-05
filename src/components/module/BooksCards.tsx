@@ -1,9 +1,9 @@
 
 
-import type { DataImage } from "@/data/data";
+import type { IslamicBooksData } from "@/data/islamic";
 import { Link } from "react-router";
 
-function BooksCards({ product }: { product: DataImage }) {
+function BooksCards({ product }: { product: IslamicBooksData }) {
     return (
         <div
             className="
