@@ -1,4 +1,4 @@
-export interface ImagesData {
+export interface DataImage {
   id: number;
   image: string;
   name: string;
@@ -6,7 +6,7 @@ export interface ImagesData {
   src: string;
 }
 
-const ImageData: ImagesData[] = [
+const ImageData: DataImage[] = [
   {
     id: 1,
     image: "public/i-1.jpg",
