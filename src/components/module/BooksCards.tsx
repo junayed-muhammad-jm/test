@@ -1,9 +1,10 @@
 
 
-import type { IslamicBooksData } from "@/data/islamic";
+
+import type { DataImage } from "@/data/data";
 import { Link } from "react-router";
 
-function BooksCards({ product }: { product: IslamicBooksData }) {
+function BooksCards({ product }: { product: DataImage }) {
     return (
         <div
             className="
@@ -67,7 +68,7 @@ function BooksCards({ product }: { product: IslamicBooksData }) {
                                 transition
                             "
                 >
-                    View 
+                    View
                 </a>
             </div>
         </div>

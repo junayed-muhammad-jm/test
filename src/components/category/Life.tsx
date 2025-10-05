@@ -1,6 +1,7 @@
 import BooksCards from "@/components/module/BooksCards";
+import ImageData from "@/data/data";
 
-import IslamicBooks from "@/data/islamic";
+
 
 
 function Life() {
@@ -30,7 +31,7 @@ function Life() {
                     gap-8
                 "
                 >
-                    {IslamicBooks.map((product) => (
+                    {ImageData.map((product) => (
                         <BooksCards key={product.id} product={product} />
                     ))}
                 </div>
